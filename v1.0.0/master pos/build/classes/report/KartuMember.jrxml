@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="KartuMember" language="groovy" pageWidth="240" pageHeight="155" orientation="Landscape" columnWidth="240" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="f6f5f5a2-fa22-411d-afe6-4d54fa68ff99">
+	<property name="ireport.zoom" value="2.357947691000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="qrcode" class="java.io.InputStream"/>
+	<parameter name="image1" class="java.io.InputStream"/>
+	<parameter name="image2" class="java.io.InputStream"/>
+	<field name="id" class="java.lang.String"/>
+	<field name="name" class="java.lang.String"/>
+	<background>
+		<band height="155" splitType="Stretch">
+			<image hAlign="Center">
+				<reportElement x="56" y="30" width="184" height="105" uuid="a929b27a-c03b-4382-bdbf-f3606c59800d"/>
+				<imageExpression><![CDATA[$P{image1}]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="0" y="0" width="56" height="155" forecolor="#870F32" backcolor="#870F32" uuid="1cc610d0-9674-47c6-a97d-9ed8fa7646d6"/>
+			</rectangle>
+			<rectangle radius="10">
+				<reportElement x="108" y="45" width="69" height="71" uuid="fc15a2da-a0b5-4637-84b0-5f40b7424a69"/>
+				<graphicElement>
+					<pen lineWidth="3.0" lineColor="#870F1E"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle radius="10">
+				<reportElement x="85" y="127" width="120" height="20" forecolor="#870F32" backcolor="#870F32" uuid="b199adce-8f22-4453-96ba-b54fbffa831f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="56" y="0" width="184" height="30" forecolor="#870F32" uuid="53cb0a5f-e7f9-4514-96fa-9198b4d8b72e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Californian FB" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MEMBER CARD]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="85" y="127" width="120" height="20" forecolor="#FFFFFF" uuid="dd9971b1-6be2-49ef-bda3-c0fd9f6a3c31"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Californian FB" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement x="119" y="58" width="58" height="47" uuid="7ddccbe3-67c8-4c5a-bcc6-5f07c4adc51e"/>
+				<imageExpression><![CDATA[$P{qrcode}]]></imageExpression>
+			</image>
+			<image vAlign="Middle">
+				<reportElement x="12" y="30" width="34" height="48" uuid="441a39e3-b38c-43b1-90be-f0b5a6b175f2"/>
+				<imageExpression><![CDATA[$P{image2}]]></imageExpression>
+			</image>
+		</band>
+	</background>
+</jasperReport>

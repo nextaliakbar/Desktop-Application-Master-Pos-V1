@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="KartuKaryawan" language="groovy" pageWidth="155" pageHeight="240" columnWidth="155" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="d249fbf0-5168-4854-8597-046888eeb89a">
+	<property name="ireport.zoom" value="2.3579476910000117"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="131"/>
+	<parameter name="qrcode" class="java.io.InputStream"/>
+	<field name="id" class="java.lang.String"/>
+	<field name="name" class="java.lang.String"/>
+	<field name="position" class="java.lang.String"/>
+	<background>
+		<band height="240">
+			<image>
+				<reportElement x="0" y="95" width="155" height="76" uuid="a9a5e7b3-7ce9-477e-9f47-41feb572193e"/>
+				<imageExpression><![CDATA["C:\\Users\\usER\\OneDrive\\Documents\\Geulis-App\\geulis\\src\\image\\bg.png"]]></imageExpression>
+			</image>
+			<rectangle>
+				<reportElement x="0" y="171" width="155" height="69" forecolor="#870F32" backcolor="#870F32" uuid="c6bcab25-b979-494f-a1e6-34fc89b19647"/>
+			</rectangle>
+			<rectangle radius="10">
+				<reportElement x="36" y="208" width="81" height="20" forecolor="#870F32" uuid="728d322f-db2b-49c8-ac25-c98ca3685784"/>
+			</rectangle>
+			<textField>
+				<reportElement x="36" y="208" width="81" height="20" forecolor="#870F32" uuid="ab92ebd4-0301-40e5-8ffd-7950e6c2fcb4"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Californian FB" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{position}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="171" width="155" height="37" forecolor="#FFFFFF" uuid="9c5f4a95-34d0-4ebb-9035-fdd8e2088dbb"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Californian FB" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<rectangle radius="10">
+				<reportElement mode="Opaque" x="26" y="57" width="102" height="103" forecolor="#870F32" uuid="0cf24746-8b5f-4b43-9898-eb012a5979a1"/>
+				<graphicElement>
+					<pen lineWidth="3.0"/>
+				</graphicElement>
+			</rectangle>
+			<image hAlign="Center">
+				<reportElement x="36" y="76" width="81" height="67" uuid="7703cd96-23ea-424e-b2c2-e4f26c2c46ca"/>
+				<imageExpression><![CDATA[$P{qrcode}]]></imageExpression>
+			</image>
+			<image>
+				<reportElement x="26" y="13" width="102" height="37" uuid="7d153b26-9c22-4763-8f3b-6da876d0487b"/>
+				<imageExpression><![CDATA["C:\\Users\\usER\\OneDrive\\Documents\\Geulis-App\\geulis\\src\\image\\Group 47.png"]]></imageExpression>
+			</image>
+		</band>
+	</background>
+</jasperReport>

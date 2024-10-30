@@ -1,0 +1,45 @@
+<component name="libraryTable">
+  <library name="report1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/barbecue-1.5-beta1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/batik-svg-dom-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/jackson-dataformat-xml-2.14.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/commons-collections4-4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/stax2-api-4.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/woodstox-core-6.4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/batik-css-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/barcode4j-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/jasperreports-6.20.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/batik-anim-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/commons-cli-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/itextpdf-5.5.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/batik-dom-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/batik-bridge-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/openpdf-1.3.30.jaspersoft.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/commons-beanutils-1.9.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/groovy-all-2.4.16.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/jackson-databind-2.14.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/core-3.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/jfreechart-1.0.19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/jackson-annotations-2.14.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/commons-lang3-3.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/batik-i18n-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/javase-3.5.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/jcommander-1.82.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/jasper-compiler-jdt-5.5.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/batik-gvt-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/jcommon-1.0.23.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/jackson-core-2.14.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/batik-util-1.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/ecj-3.21.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/ant-1.10.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/ant-launcher-1.10.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/avalon-framework-impl-4.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/commons-collections-3.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/classes/library/report/commons-digester-2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
